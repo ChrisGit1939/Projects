@@ -1,0 +1,3 @@
+The program retrieves data from:  https://danepubliczne.imgw.pl/apiinfo
+To check the weather data, you need to run the program, and write location.
+If you write the wrong location, the program will return all available locations.
