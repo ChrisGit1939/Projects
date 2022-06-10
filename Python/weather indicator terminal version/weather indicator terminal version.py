@@ -20,7 +20,7 @@ while True:
 
     link = 'https://danepubliczne.imgw.pl/api/data/synop/station/{}'.format(location)
     downloaded = requests.get(link)
-    API = (downloaded.text)       # varriable "a" is contains needed API data
+    API = (downloaded.text)       # varriable  is contains needed API data
     data = json.loads(API)
 
 
